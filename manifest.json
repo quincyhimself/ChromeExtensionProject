@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "AnswerForMe",
+  "version": "1.0",
+  "description": "Highlight a question, right-click, and get an instant, accurate AI answer.",
+  "permissions": ["contextMenus", "scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
