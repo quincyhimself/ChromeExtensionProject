@@ -1,5 +1,5 @@
 document.getElementById("testBtn").addEventListener("click", async () => {
-  const backendUrl = "https://chromeextensionproject.onrender.com/ask"; // Replace with your backend URL
+  const backendUrl = "https://chromeextensionproject-1.onrender.com/ask"; // Replace with your backend URL
 
   const resBox = document.getElementById("result");
   resBox.innerText = "Testing...";
@@ -15,3 +15,4 @@ document.getElementById("testBtn").addEventListener("click", async () => {
     resBox.innerText = "❌ Failed to connect to backend";
   }
 });
+
