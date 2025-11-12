@@ -17,7 +17,7 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
 });
 
 async function getAnswer(selectedText) {
-  const backendUrl = "https://chromeextensionproject.onrender.com/ask"; // Your Render URL
+  const backendUrl = "https://chromeextensionproject-1.onrender.com/ask"; // Your Render URL
 
   // Create main container
   const box = document.createElement("div");
@@ -100,3 +100,4 @@ async function getAnswer(selectedText) {
   // Auto-remove after 12 seconds
   setTimeout(() => box.remove(), 12000);
 }
+
